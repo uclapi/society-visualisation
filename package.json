@@ -2,7 +2,7 @@
   "name": "society-visualisation",
   "version": "0.1.0",
   "private": true,
-  "homepage" : "http://uclapi.github.io/society-visualisation",
+  "homepage" : "society-visualisation.uclapi.com",
   "dependencies": {
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
