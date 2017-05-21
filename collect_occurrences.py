@@ -36,8 +36,11 @@ def number_of_bookings():
         key=operator.itemgetter(1),
         reverse=True
     )
-    for society in sorted_societies:
-        print(society[0], society[1])
+
+    with open("total_bookings_by_society.json", "w") as f:
+        f.write(json.dumps({
+            "rows": [[society[0], society[1]] for society in sorted_societies]
+        }))
 
 
 def bookings_over_time():
@@ -61,4 +64,4 @@ def bookings_over_time():
         }))
 
 
-bookings_over_time()
+number_of_bookings()
