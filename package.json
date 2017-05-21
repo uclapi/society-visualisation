@@ -2,10 +2,11 @@
   "name": "society-visualisation",
   "version": "0.1.0",
   "private": true,
-  "homepage" : "https://society-visualisation.uclapi.com/",
+  "homepage": "https://society-visualisation.uclapi.com/",
   "dependencies": {
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
+    "react-github-fork-ribbon": "^0.5.0",
     "react-google-charts": "^1.5.5"
   },
   "devDependencies": {
@@ -19,5 +20,4 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   }
-
 }
